@@ -16,13 +16,13 @@ Your beautiful parser that generates test data and converts to csv for your use!
 ## To run, you need to:
 - run `docker build -t my-app .`
 - once successful, to run the main program `docker run \
-  -v $(pwd)/src/sol-one/input_data:/app/input_data \
-  -v $(pwd)/src/sol-one/output_data:/app/output_data \
+  -v $(pwd)/src/sol_one/input_data:/app/input_data \
+  -v $(pwd)/src/sol_one/output_data:/app/output_data \
   --rm my-app main`
-- To run the test, docker run --rm my-app test
+- To run the test, `docker run --rm my-app test``
 
 ## Results
-After you finish above two steps, you should be able to see `input_data` and `output_data` folders under `src/sol_one/sol_one`
+After you finish above two steps, you should be able to see `input_data` and `output_data` folders under `src/sol_one/`
 
 ## What i learnt
 - loads of pytesting and docker
